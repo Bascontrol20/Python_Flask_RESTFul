@@ -1,0 +1,11 @@
+
+** NodeJS should be install 
+npm install -g json-server 
+Create db.json file with some data
+json-server  --watch db.json
+
+
+-------------------------
+python -m venv env
+pip install flask flask-restful requests
+pip install Flask-SQLAlchemy

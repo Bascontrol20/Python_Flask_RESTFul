@@ -1,0 +1,57 @@
+{
+  "StoragePlan": [
+    {
+        "//Comment" : "Storage_Tote_Arrive_Report",
+        "ItemCode": "A000001",
+        "ToteNo": "00000001",
+        "StokeQty": "0",
+        "PickQty": "0",
+        "WorkType":"0",
+        "ArrivalDateTime":"20210917094450"
+    }
+],
+  "StorageResult":[
+      {
+        "//Comment" : "Storage_Result",
+        "ItemCode": "A000001",
+        "ToteNo": "00000001",
+        "LocationNo": "01001001001",
+        "StorageQty": "1",
+        "ArrivalDateTime":"20210917094450"
+      }
+],
+  "PickingPlan": [
+    {
+        "//Comment" : "Picking_Tote_Arrive_Report",
+        "ToteNo": "00000001",
+        "StokeQty": "10",
+        "PickQty": "5",
+        "WorkType":"1",
+        "ArrivalDateTime":"20210917094450"
+    }
+],
+  "PickingResult":[
+    {
+      "//Comment" : "Picking_Result",
+      "OrderNo":"0000001",
+      "ItemCode": "A000001",
+      "CustomerName": "RamBas",
+      "ToteNo": "00000001",
+      "PickQty": "1",
+      "RemainQty": "9",
+      "PickDateTime":"20210917094450"
+    }
+],
+"StockReport":[
+    {
+      "//Comment" : "StockReport",
+      "ItemCode": "A000001",
+      "ToteNo": "00000002",
+      "LocationNo": "01001001002",
+      "StockQty": "10",
+      "ReportDateTime":"20210917094450"
+    }
+]
+
+
+}
